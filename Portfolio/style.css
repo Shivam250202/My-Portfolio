@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: beige;
+    /* width: 440px; */
+    font-family: "Merienda", cursive;
+    height: 150vh;
+    transition: transform 0.3s ease-in;
+
+}
+
+.sidebar nav {
+    padding: 40px;
+    height: 100vh;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: azure;
+    width: 110vw;
+    height: 150vh;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: azure; */
+    height: 60vh;
+    width: 80vw;
+    margin: 140px auto;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+}
+
+.hello {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+    margin-bottom: 10px;
+}
+
+.about {
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+
+.moreabout {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "Merienda", cursive;
+}
+
+.buttons {
+    margin: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: aliceblue;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: dodgerblue
+}
+
+.devpic img {
+    height: 60vh;
+    margin-left: 15px;
+}
+
+/* ------------------------------------- */
+
+.contactform {
+    padding: 0 35px;
+    padding-top: 150px;
+    font-family: "Merienda", cursive;
+    margin: 0 250px;
+}
+
+.contactform h1 {
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+}
+
+.contactform div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 5px;
+}
+
+#emailHelp {
+    font-size: 15px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 25px;
+    margin: 5px 0;
+}
+
+/* ________________________________________________________________ */
+
+.blogItem {
+    margin: 20px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.blogContainer{
+    margin: 0 250px;
+    margin-top: 50px;
+}
+
+.blogContainer h1 {
+    font-family: "Source Code Pro", monospace;
+    margin: 10px;
+}
+
+.blogItem p {
+    font-family: "Merienda", cursive;
+}
+
+/* ______________________________________________________________ */
+
+.intro h2 {
+    font-family: "Source Code Pro", monospace;
+    margin: 20px;
+}
+
+.Intro{
+    margin: 10px 100px;
+}
+
+.intro p {
+    font-family: "Merienda", cursive;
+    margin: 20px
+}
+
+.skillContainer {
+    padding: 20px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+}
+
+.skillItem h3 {
+    font-family: "Source Code Pro", monospace;
+}
+
+.skill {
+    width: 260px;
+    height: 6px;
+    background-color: rgb(134, 74, 74);
+    margin: 15px;
+}
+
+/* _____________________________________________________________ */
+
+.sidebarGo{
+    transform: translate(-450px, 0px);
+    position: absolute;
+}
+
+.hampburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.hamburger{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.cross {
+    margin-left: 170px;
+    margin-top: 8px;
+}
+
+@media (max-width: 1400px) {
+    .devpic{
+        display: none;
+    }
+    
+}
